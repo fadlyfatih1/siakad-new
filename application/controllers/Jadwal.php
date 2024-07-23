@@ -13,7 +13,7 @@ class Jadwal extends CI_Controller
     public function index()
     {
         // Apabila yang login = guru (id_level_user 3 = guru) maka hanya akan menampilkan jadwal yang hanya diajar oleh guru tersebut
-        if ($this->session->userdata('id_level_user') == 3) {
+        if ($this->session->userdata('id_level_user') == 3){
             $sql = "SELECT tj.id_jadwal, tju.nama_jurusan, ttk.nama_tingkatan, tm.nama_mapel, tj.jam, 
 						tr.nama_ruangan, tj.hari, tj.semester 
 						FROM tbl_jadwal AS tj, tbl_jurusan AS tju, tbl_ruangan AS tr, tbl_mapel AS tm, tbl_tingkatan_kelas AS ttk

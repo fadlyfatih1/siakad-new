@@ -30,9 +30,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                           <button type="submit" name="export_jadwal" class="btn btn-success btn-sm"><i class="fa fa-print" aria-hidden="true"></i> Export Data</button>
-                        </td>
+
                     </tr>
                 </table>
 
